@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Truecaller Test">
+    <parameter name = "target" value="${target}"/>
+
+    <test name="Login Test Run">
+        <classes>
+            <class name="com.truecaller.test.LoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,36 @@
+{
+  "android": {
+    "app": {
+      "appPackage": "com.truecaller",
+      "appActivity": "com.truecaller.ui"
+    },
+    "targets": [
+        {
+          "deviceName": "OnePlus 6",
+          "platformVersion": "11.0"
+        }
+      ],
+      "server": {
+        "url": "http://127.0.0.1:4723/wd/hub",
+        "automationName": "UiAutomator2",
+        "commandTimeout": 12000
+      }
+    },
+    "ios": {
+      "app": {
+        "bundleId": "com.truecaller"
+      },
+      "targets": [
+        {
+          "deviceName": "iPhone XR",
+          "platformVersion": "15"
+        }
+      ],
+      "server": {
+        "url": "http://127.0.0.1:4723/wd/hub",
+        "automationName": "XCUITest",
+        "launchTimeout": 120000,
+        "commandTimeout": 12000
+      }
+    }
+}

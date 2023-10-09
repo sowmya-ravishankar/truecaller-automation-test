@@ -1,0 +1,9 @@
+com/truecaller/pom/POMBase.class
+com/truecaller/config/ReadConfig.class
+com/truecaller/config/AppiumServer.class
+com/truecaller/config/DeviceTarget.class
+com/truecaller/config/DevicePlatform.class
+com/truecaller/config/Config.class
+com/truecaller/pom/GetStartedPage.class
+com/truecaller/pom/LoginPage.class
+com/truecaller/driver/AppDriver.class
